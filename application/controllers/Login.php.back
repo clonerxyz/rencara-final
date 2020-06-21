@@ -1,0 +1,116 @@
+<?php 
+ 
+class Login extends CI_Controller{
+ 
+	function __construct(){
+		parent::__construct();		
+		$this->load->model('m_login');
+ 
+	}
+ 
+	function index(){
+		$this->load->view('lg/v_login');
+	}
+	
+	function aksi_login(){
+		$username= $this->input->post('username');
+		$password = $this->input->post('password');
+		$pwenc = base64_encode($password);
+		$where = array(
+			'u_a' => $username,
+			'p_a' => $pwenc,
+			'roster' => 'admin'
+			);
+		$where2 = array(
+			'u_c' => $username,
+			'p_c' => $pwenc,
+			'roster' => 'user'
+			);
+		$where3 = array(
+			'u_v' => $username,
+			'p_v' => $pwenc,
+			'roster' => 'vend'
+			);
+
+		$cek = $this->m_login->cek_login("admin",$where)->num_rows();
+		$cek2 = $this->m_login->cek_login("customer",$where2)->num_rows();
+		$cek3 = $this->m_login->cek_login("vendor",$where3)->num_rows();
+		$this->db->select('s_login')->from('admin')->where('u_a',$username);
+		$query = $this->db->get();
+		foreach($query->result() as $row) {
+		$login_state = $row->s_login;
+		}
+		$this->db->select('s_login')->from('customer')->where('u_c',$username);
+		$queryz = $this->db->get();
+		foreach($queryz->result() as $rowy) {
+		$login_statee = $rowy->s_login;
+		}
+		$this->db->select('s_login')->from('vendor')->where('u_v',$username);
+		$queryx = $this->db->get();
+		foreach($queryx->result() as $rowz) {
+		$login_stateee = $rowz->s_login;
+		}
+		if($cek > 0 && $login_state == "idle"){
+		$admine = array(
+				"s_login" => "login"
+		);
+		$this->db->where('u_a',$username)->update('admin', $admine);
+		$data_session = array(
+				'nama' => $username,
+				'status' => "admin"
+				);
+ 
+			$this->session->set_userdata($data_session);
+ 
+			redirect(base_url("admin"));
+		}
+		
+		if($cek2 > 0 && $login_statee == "idle"){
+		$customere = array(
+				"s_login" => "login"
+		);
+		$this->db->where('u_c',$username)->update('customer', $customere);
+		$data_session = array(
+				'nama' => $username,
+				'status' => "user"
+				);
+ 
+			$this->session->set_userdata($data_session);
+ 
+			redirect(base_url("cust"));
+		}
+		
+		if($cek3 > 0 && $login_stateee == "idle"){
+		$vendore = array(
+				"s_login" => "login"
+		);
+		$this->db->where('u_v',$username)->update('vendor', $vendore);
+		$data_session = array(
+				'nama' => $username,
+				'status' => "vend"
+				);
+ 
+			$this->session->set_userdata($data_session);
+ 
+			redirect(base_url("vendor"));
+		}
+		if($login_state == "login" || $login_statee == "login" || $login_stateee == "login"){
+			redirect(base_url("login/already_login"));
+		}
+		elseif($cek < 1 || $cek2 < 1 || $cek3 < 1){
+			redirect(base_url("login/wrong_password"));
+		}
+		else{
+			redirect(base_url("login/already_login"));
+		}
+		
+		}
+		function already_login(){
+		$this->load->view('main/already');
+		}
+		function wrong_password(){
+		$this->load->view('main/wrong');
+		}
+	
+	
+}

@@ -1,0 +1,95 @@
+<?php 
+ 
+class Admin extends CI_Controller{
+ 
+	function __construct(){
+		parent::__construct();
+		$params = array('server_key' => 'SB-Mid-server-bkiM9Ek-ub7ReDyFIcVSDE-S', 'production' => false);
+		$this->load->library('midtrans');
+		$this->midtrans->config($params);
+		if($this->session->userdata('status') != "admin"){
+			redirect(base_url("unauthorized"));
+		}
+		
+	}
+	
+	function index(){
+		$this->db->select('order_id')
+		->from('midtrans_transaction');
+		//->limit('1');
+		$query = $this->db->get();
+		foreach($query->result() as $row) {
+		$status[] = $this->midtrans->status($row->order_id);
+		//$data['trans'] = $status;
+		$filter = $status;
+		}
+		foreach($filter as $filt=>$item ){
+		$filter[$filt] = (array)$item;
+		$it = $filter[$filt]['order_id'];
+		$it2 = $filter[$filt]['transaction_status'];
+		$this->db->select('*')
+		->from('midtrans_item_detail')
+		->where('midtrans_id',$it);
+		$queryx = $this->db->get();
+		foreach($queryx->result() as $rowy) {
+		//$data['trans'] = $it;
+		$dash = array( 
+		'order-id' => $it,
+		'item-name' => $rowy->name,
+		'transaction-status' => $it2
+		);
+		$merge = json_encode($dash);
+		echo '<pre>' , var_dump ($merge) , '</pre>';
+		}
+		
+		}
+		
+		
+		//var_dump (array_unique($merge));
+		//
+		
+		//$this->load->view('admin/transaction', $data);
+	}
+	function logout(){
+		$user=$this->session->userdata('nama');
+		$admine = array(
+				"s_login" => "idle"
+		);
+		$this->db->where('u_a',$user)->update('admin', $admine);
+		$this->session->sess_destroy();
+		redirect(base_url('login'));
+	}
+	function test() {
+		$order_id = "1997745791";
+		$username = "SB-Mid-server-bkiM9Ek-ub7ReDyFIcVSDE-S";
+		$password = "";
+		$remote_url = 'https://api.sandbox.midtrans.com/v2/'.$order_id.'/status';
+
+		// Create a stream
+		$opts = array(
+		'http'=>array(
+		'method'=>"GET",
+		'header' => "Authorization: Basic " . base64_encode("$username:$password")                 
+		)
+		);
+
+		$context = stream_context_create($opts);
+
+		// Open the file using the HTTP headers set above
+		$json = file_get_contents($remote_url, false, $context);
+		$data = json_decode($json,true);
+		$this->db->select('*')
+		->from('midtrans_item_detail')
+		->where('midtrans_id',$order_id);
+		$query = $this->db->get();
+		foreach($query->result() as $row) {
+		echo '<pre><p> item name : '.$row->name.'</p>';
+		echo '<p> vendor name : ' .$row->vendor. '</p>';
+		}
+		echo '<p> customer name : ' .$row->customer. '</p>';
+		echo '<p> Total Price  : Rp ' .number_format($data["gross_amount"],2,",","."). '</p>';
+		echo '<p> transaction status : '.$data['transaction_status'].'</p></pre>';
+		
+
+	}
+}

@@ -1,0 +1,866 @@
+[19-May-2020 15:26:06 UTC] PHP Fatal error:  Cannot re-assign $this in /home/rencarac/rencara.com/store/application/controllers/Hp.php on line 50
+[19-May-2020 15:26:06 UTC] PHP Stack trace:
+[19-May-2020 15:26:06 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[19-May-2020 15:26:06 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[31-May-2020 13:48:49 UTC] {"transaction_details":{"order_id":1105957497,"gross_amount":1100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo137 ","price":"800000","quantity":"1","name":"Lampu Confetti sepasang"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 13:48:49 +0000","unit":"minute","duration":60}}
+[31-May-2020 13:48:50 UTC] fff662eb-3622-477c-8945-b2df2edcb36c
+[31-May-2020 13:59:56 UTC] {"transaction_details":{"order_id":796943094,"gross_amount":1100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo137 ","price":"800000","quantity":"1","name":"Lampu Confetti sepasang"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 13:59:56 +0000","unit":"minute","duration":60}}
+[31-May-2020 13:59:56 UTC] d4b0a0a0-7e6a-4298-bbde-eb56e8a3fd16
+[31-May-2020 14:00:21 UTC] {"transaction_details":{"order_id":1598730582,"gross_amount":1100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo137 ","price":"800000","quantity":"1","name":"Lampu Confetti sepasang"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 14:00:21 +0000","unit":"minute","duration":60}}
+[31-May-2020 14:00:21 UTC] fd84d19b-50f5-439d-b551-801cd576874b
+[31-May-2020 14:10:28 UTC] {"transaction_details":{"order_id":1216373313,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 14:10:28 +0000","unit":"minute","duration":60}}
+[31-May-2020 14:10:28 UTC] 513b967f-8d86-44d1-9133-7e4da52b6455
+[31-May-2020 14:13:56 UTC] {"transaction_details":{"order_id":669445975,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 14:13:56 +0000","unit":"minute","duration":60}}
+[31-May-2020 14:13:56 UTC] b2072c84-84e6-4c7b-86ac-66d30284706b
+[31-May-2020 14:18:41 UTC] {"transaction_details":{"order_id":1189751975,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 14:18:41 +0000","unit":"minute","duration":60}}
+[31-May-2020 14:18:41 UTC] bbcb02f7-23c3-41d0-833c-01c89549c422
+[31-May-2020 14:20:37 UTC] {"transaction_details":{"order_id":1909721846,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 14:20:37 +0000","unit":"minute","duration":60}}
+[31-May-2020 14:20:37 UTC] 1e729ca8-040d-4b30-9317-b54771f2c477
+[31-May-2020 14:21:12 UTC] {"transaction_details":{"order_id":951381445,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 14:21:12 +0000","unit":"minute","duration":60}}
+[31-May-2020 14:21:12 UTC] 2c99eb35-7b32-4911-94a4-d3fd5823cb75
+[31-May-2020 14:34:42 UTC] {"transaction_details":{"order_id":1214098883,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 14:34:42 +0000","unit":"minute","duration":60}}
+[31-May-2020 14:34:42 UTC] ae9eec19-5d5d-40f8-be89-8c81db894fdd
+[31-May-2020 16:03:37 UTC] {"transaction_details":{"order_id":1484040861,"gross_amount":200000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo661 ","price":"100000","quantity":"1","name":"Genset-Mitsubishi 50 Kva"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 16:03:37 +0000","unit":"minute","duration":60}}
+[31-May-2020 16:03:37 UTC] 0d46152e-cae4-4564-8993-222c689b83dd
+[31-May-2020 16:18:02 UTC] {"transaction_details":{"order_id":1623676471,"gross_amount":200000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo661 ","price":"100000","quantity":"1","name":"Genset-Mitsubishi 50 Kva"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 16:18:02 +0000","unit":"minute","duration":60}}
+[31-May-2020 16:18:02 UTC] d3708770-d318-41b9-a4bd-2485a7e946cc
+[31-May-2020 16:47:22 UTC] {"transaction_details":{"order_id":776290167,"gross_amount":550000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo233 ","price":"150000","quantity":"1","name":"Lampu HALOGEN"},{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo661 ","price":"100000","quantity":"1","name":"Genset-Mitsubishi 50 Kva"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 16:47:22 +0000","unit":"minute","duration":60}}
+[31-May-2020 16:47:22 UTC] 9d78940d-bdeb-434c-9740-6b7da9732bd9
+[31-May-2020 17:09:20 UTC] {"transaction_details":{"order_id":2052223397,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 17:09:20 +0000","unit":"minute","duration":60}}
+[31-May-2020 17:09:20 UTC] b7e227a4-a9dc-4ccd-a822-bd2558e5ccb6
+[31-May-2020 17:11:43 UTC] {"transaction_details":{"order_id":970494256,"gross_amount":200000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"1","name":"Genset-Ifanite 100 Kva"},{"id":"kyo119 ","price":"100000","quantity":"1","name":"Genset-Matsuko MDG-150"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 17:11:43 +0000","unit":"minute","duration":60}}
+[31-May-2020 17:11:43 UTC] 7304388f-fc46-4a15-8b22-b8bc25462642
+[31-May-2020 18:17:07 UTC] PHP Fatal error:  Cannot use [] for reading in /home/rencarac/rencara.com/store/application/views/cust/transaksi.php on line 227
+[31-May-2020 18:17:07 UTC] PHP Stack trace:
+[31-May-2020 18:17:07 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[31-May-2020 18:17:07 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[31-May-2020 18:17:07 UTC] PHP   3. Cust->transaksi() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[31-May-2020 18:17:07 UTC] PHP   4. CI_Loader->view() /home/rencarac/rencara.com/store/application/controllers/Cust.php:288
+[31-May-2020 18:17:07 UTC] PHP   5. CI_Loader->_ci_load() /home/rencarac/rencara.com/store/system/core/Loader.php:495
+[31-May-2020 20:04:08 UTC] PHP Fatal error:  Cannot use [] for reading in /home/rencarac/rencara.com/store/application/views/cust/transaksi.php on line 233
+[31-May-2020 20:04:08 UTC] PHP Stack trace:
+[31-May-2020 20:04:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[31-May-2020 20:04:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[31-May-2020 20:04:08 UTC] PHP   3. Cust->transaksi() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[31-May-2020 20:04:08 UTC] PHP   4. CI_Loader->view() /home/rencarac/rencara.com/store/application/controllers/Cust.php:288
+[31-May-2020 20:04:08 UTC] PHP   5. CI_Loader->_ci_load() /home/rencarac/rencara.com/store/system/core/Loader.php:495
+[31-May-2020 20:07:24 UTC] PHP Fatal error:  Cannot use [] for reading in /home/rencarac/rencara.com/store/application/views/cust/transaksi.php on line 232
+[31-May-2020 20:07:24 UTC] PHP Stack trace:
+[31-May-2020 20:07:24 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[31-May-2020 20:07:24 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[31-May-2020 20:07:24 UTC] PHP   3. Cust->transaksi() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[31-May-2020 20:07:24 UTC] PHP   4. CI_Loader->view() /home/rencarac/rencara.com/store/application/controllers/Cust.php:288
+[31-May-2020 20:07:24 UTC] PHP   5. CI_Loader->_ci_load() /home/rencarac/rencara.com/store/system/core/Loader.php:495
+[31-May-2020 22:21:59 UTC] {"transaction_details":{"order_id":1350205315,"gross_amount":100000},"item_details":[{"id":"kyo130 ","price":"100000","quantity":"1","name":"Genset-Sawakami GFH-5880LX"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 22:21:59 +0000","unit":"minute","duration":60}}
+[31-May-2020 22:21:59 UTC] 85cf4d3c-ae74-489e-bec2-12d6806e40e5
+[31-May-2020 22:26:10 UTC] {"transaction_details":{"order_id":1298080578,"gross_amount":100000},"item_details":[{"id":"kyo130 ","price":"100000","quantity":"1","name":"Genset-Sawakami GFH-5880LX"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 22:26:10 +0000","unit":"minute","duration":60}}
+[31-May-2020 22:26:10 UTC] dcdbf7bf-d526-4295-97d0-6bdd0c76f29c
+[31-May-2020 22:35:57 UTC] {"transaction_details":{"order_id":1520947866,"gross_amount":11000000},"item_details":[{"id":"kyo571 ","price":"5500000","quantity":"2","name":"Panggung Semmi rigging "}],"customer_details":{"first_name":"coba","last_name":"cobaaja","email":"clonerxyz@gmail.com","phone":"08455455181","shipping_address":{"first_name":"coba","last_name":"cobaaja","email":"clonerxyz@gmail.com","address":"hshshsh"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 22:35:57 +0000","unit":"minute","duration":60}}
+[31-May-2020 22:35:57 UTC] 52784bb1-f7c3-4577-90b1-15fe31358b8d
+[31-May-2020 23:06:59 UTC] {"transaction_details":{"order_id":915574327,"gross_amount":6750000},"item_details":[{"id":"kyo369 ","price":"6500000","quantity":"1","name":"Panggung Semmi rigging "},{"id":"kyo129 ","price":"250000","quantity":"1","name":"Lampu mini laser disco"}],"customer_details":{"first_name":"dui","last_name":"fhhfhfhf`","email":"fhfhfhfh@gmail.com","phone":"5665","shipping_address":{"first_name":"dui","last_name":"fhhfhfhf`","email":"fhfhfhfh@gmail.com","address":"fhfjf"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 23:06:59 +0000","unit":"minute","duration":60}}
+[31-May-2020 23:06:59 UTC] e8ff1ef9-863d-4ade-9290-68f8d7111a04
+[31-May-2020 23:17:05 UTC] {"transaction_details":{"order_id":643092806,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"gui","last_name":"gui user","email":"clonerxyz@gmail.com","phone":"232131","shipping_address":{"first_name":"gui","last_name":"gui user","email":"clonerxyz@gmail.com","address":"jl.waowoakowk"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 23:17:05 +0000","unit":"minute","duration":60}}
+[31-May-2020 23:17:05 UTC] 51225414-17c8-4c91-85b1-d79885eacfc1
+[31-May-2020 23:21:44 UTC] {"transaction_details":{"order_id":1446862561,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","phone":"646464667","shipping_address":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","address":"hshshs"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 23:21:44 +0000","unit":"minute","duration":60}}
+[31-May-2020 23:21:44 UTC] f7e7e5b5-8d0f-4611-8fc5-7a81e729d965
+[31-May-2020 23:53:43 UTC] {"transaction_details":{"order_id":908251940,"gross_amount":6600000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo752 ","price":"1500000","quantity":"1","name":"Sound System"},{"id":"kyo460 ","price":"5000000","quantity":"1","name":"Paket Lampu Sorot Panggung"}],"customer_details":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","phone":"646464667","shipping_address":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","address":"hshshs"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-05-31 23:53:43 +0000","unit":"minute","duration":60}}
+[31-May-2020 23:53:43 UTC] 96238b96-390c-4b65-8bfe-c323dd1256c4
+[01-Jun-2020 02:50:34 UTC] {"transaction_details":{"order_id":9314468,"gross_amount":25000000},"item_details":[{"id":"kyo169 ","price":"12500000","quantity":"2","name":"Panggung Full Rigging "}],"customer_details":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","phone":"646464667","shipping_address":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","address":"hshshs"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-01 02:50:34 +0000","unit":"minute","duration":60}}
+[01-Jun-2020 02:50:34 UTC] 2c4a3ddc-1c5f-4f37-93c0-a2f359c6d3d6
+[01-Jun-2020 13:17:14 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 13:17:14 UTC] PHP Stack trace:
+[01-Jun-2020 13:17:14 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:17:14 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:17:14 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:17:14 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:17:14 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:17:14 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:17:14 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:17:14 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 13:17:14 UTC] PHP Stack trace:
+[01-Jun-2020 13:17:14 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:17:14 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:17:14 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:17:14 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:17:14 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:17:14 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:17:14 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:17:14 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 13:17:14 UTC] PHP Stack trace:
+[01-Jun-2020 13:17:14 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:17:14 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:17:14 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:17:14 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:17:14 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:17:14 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 13:17:14 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 13:17:14 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:17:15 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 13:17:15 UTC] PHP Stack trace:
+[01-Jun-2020 13:17:15 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:17:15 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:17:15 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:17:15 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:17:15 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 13:17:15 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 13:17:15 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 13:17:15 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 13:17:15 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 13:17:15 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 13:17:15 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 13:17:15 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 13:17:15 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 13:17:15 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:18:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 13:18:30 UTC] PHP Stack trace:
+[01-Jun-2020 13:18:30 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:18:30 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:18:30 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:18:30 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:18:30 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:18:30 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:18:30 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:18:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 13:18:30 UTC] PHP Stack trace:
+[01-Jun-2020 13:18:30 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:18:30 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:18:30 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:18:30 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:18:30 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:18:30 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:18:30 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:18:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 13:18:30 UTC] PHP Stack trace:
+[01-Jun-2020 13:18:30 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:18:30 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:18:30 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:18:30 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:18:30 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:18:30 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 13:18:30 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 13:18:30 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:18:30 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 13:18:30 UTC] PHP Stack trace:
+[01-Jun-2020 13:18:30 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:18:30 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:18:30 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:18:30 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:18:30 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 13:18:30 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 13:18:30 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 13:18:30 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 13:18:30 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 13:18:30 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 13:18:30 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 13:18:30 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 13:18:30 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 13:18:30 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:42:10 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 13:42:10 UTC] PHP Stack trace:
+[01-Jun-2020 13:42:10 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:42:10 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:42:10 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:42:10 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:42:10 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:42:10 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:42:10 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:42:10 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 13:42:10 UTC] PHP Stack trace:
+[01-Jun-2020 13:42:10 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:42:10 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:42:10 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:42:10 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:42:10 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:42:10 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:42:10 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:42:10 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 13:42:10 UTC] PHP Stack trace:
+[01-Jun-2020 13:42:10 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:42:10 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:42:10 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:42:10 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:42:10 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 13:42:10 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 13:42:10 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 13:42:10 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:42:10 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 13:42:10 UTC] PHP Stack trace:
+[01-Jun-2020 13:42:10 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 13:42:10 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 13:42:10 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 13:42:10 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:333
+[01-Jun-2020 13:42:10 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 13:42:10 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 13:42:10 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 13:42:10 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 13:42:10 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 13:42:10 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 13:42:10 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 13:42:10 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 13:42:10 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 13:42:10 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 13:50:59 UTC] {"transaction_details":{"order_id":1097053980,"gross_amount":100000},"item_details":[{"id":"kyo859 ","price":"100000","quantity":"1","name":"Genset-hartech HT-65P"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-01 13:50:59 +0000","unit":"minute","duration":60}}
+[01-Jun-2020 13:50:59 UTC] ab70af76-f08d-4c0e-8f1c-618320604859
+[01-Jun-2020 13:58:31 UTC] {"transaction_details":{"order_id":268826766,"gross_amount":100000},"item_details":[{"id":"kyo859 ","price":"100000","quantity":"1","name":"Genset-hartech HT-65P"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-01 13:58:31 +0000","unit":"minute","duration":60}}
+[01-Jun-2020 13:58:31 UTC] 5b8c4ab1-7067-4dab-abad-f9b128b993b5
+[01-Jun-2020 14:04:31 UTC] {"transaction_details":{"order_id":2098950574,"gross_amount":600000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"2","name":"Genset-Ifanite 100 Kva"},{"id":"kyo859 ","price":"100000","quantity":"1","name":"Genset-hartech HT-65P"},{"id":"kyo119 ","price":"100000","quantity":"3","name":"Genset-Matsuko MDG-150"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-01 14:04:31 +0000","unit":"minute","duration":60}}
+[01-Jun-2020 14:04:31 UTC] bf4d1b71-3500-4036-9972-2cb05507ddc7
+[01-Jun-2020 14:17:37 UTC] {"transaction_details":{"order_id":1190480467,"gross_amount":600000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"2","name":"Genset-Ifanite 100 Kva"},{"id":"kyo859 ","price":"100000","quantity":"1","name":"Genset-hartech HT-65P"},{"id":"kyo119 ","price":"100000","quantity":"3","name":"Genset-Matsuko MDG-150"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-01 14:17:37 +0000","unit":"minute","duration":60}}
+[01-Jun-2020 14:17:37 UTC] a4bb649b-5cee-4a70-ba58-917cd18cc636
+[01-Jun-2020 14:22:00 UTC] {"transaction_details":{"order_id":806577609,"gross_amount":5050000},"item_details":[{"id":"kyo137 ","price":"800000","quantity":"1","name":"Lampu Confetti sepasang"},{"id":"kyo129 ","price":"250000","quantity":"1","name":"Lampu mini laser disco"},{"id":"kyo343 ","price":"2000000","quantity":"2","name":"Sound System"}],"customer_details":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","phone":"646464667","shipping_address":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","address":"hshshs"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-01 14:22:00 +0000","unit":"minute","duration":60}}
+[01-Jun-2020 14:22:00 UTC] 9ff8504f-65b8-466f-8b95-066d8760d815
+[01-Jun-2020 14:29:06 UTC] {"transaction_details":{"order_id":1212352032,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","phone":"646464667","shipping_address":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","address":"hshshs"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-01 14:29:06 +0000","unit":"minute","duration":60}}
+[01-Jun-2020 14:29:06 UTC] d0038e11-7b31-477c-b132-da5a2dfb62e0
+[01-Jun-2020 15:13:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 15:13:08 UTC] PHP Stack trace:
+[01-Jun-2020 15:13:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:13:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:13:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:13:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:13:08 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:13:08 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:13:08 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:13:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 15:13:08 UTC] PHP Stack trace:
+[01-Jun-2020 15:13:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:13:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:13:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:13:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:13:08 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:13:08 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:13:08 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:13:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 15:13:08 UTC] PHP Stack trace:
+[01-Jun-2020 15:13:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:13:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:13:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:13:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:13:08 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:13:08 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:13:08 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:13:08 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:13:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 15:13:08 UTC] PHP Stack trace:
+[01-Jun-2020 15:13:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:13:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:13:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:13:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:13:08 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 15:13:08 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 15:13:08 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 15:13:08 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 15:13:08 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:13:08 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:13:08 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 15:13:08 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:13:08 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:13:08 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:23:17 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 15:23:17 UTC] PHP Stack trace:
+[01-Jun-2020 15:23:17 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:23:17 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:23:17 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:23:17 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:23:17 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:23:17 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:23:17 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:23:17 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 15:23:17 UTC] PHP Stack trace:
+[01-Jun-2020 15:23:17 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:23:17 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:23:17 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:23:17 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:23:17 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:23:17 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:23:17 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:23:17 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 15:23:17 UTC] PHP Stack trace:
+[01-Jun-2020 15:23:17 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:23:17 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:23:17 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:23:17 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:23:17 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:23:17 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:23:17 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:23:17 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:23:17 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 15:23:17 UTC] PHP Stack trace:
+[01-Jun-2020 15:23:17 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:23:17 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:23:17 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:23:17 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:23:17 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 15:23:17 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 15:23:17 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 15:23:17 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 15:23:17 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:23:17 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:23:17 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 15:23:17 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:23:17 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:23:17 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:24:44 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 15:24:44 UTC] PHP Stack trace:
+[01-Jun-2020 15:24:44 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:24:44 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:24:44 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:24:44 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:24:44 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:24:44 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:24:44 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:24:44 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 15:24:44 UTC] PHP Stack trace:
+[01-Jun-2020 15:24:44 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:24:44 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:24:44 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:24:44 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:24:44 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:24:44 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:24:44 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:24:44 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 15:24:44 UTC] PHP Stack trace:
+[01-Jun-2020 15:24:44 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:24:44 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:24:44 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:24:44 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:24:44 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:24:44 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:24:44 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:24:44 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:24:44 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 15:24:44 UTC] PHP Stack trace:
+[01-Jun-2020 15:24:44 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:24:44 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:24:44 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:24:44 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:24:44 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 15:24:44 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 15:24:44 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 15:24:44 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 15:24:44 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:24:44 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:24:44 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 15:24:44 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:24:44 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:24:44 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:26:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 15:26:08 UTC] PHP Stack trace:
+[01-Jun-2020 15:26:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:26:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:26:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:26:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:26:08 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:26:08 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:26:08 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:26:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 15:26:08 UTC] PHP Stack trace:
+[01-Jun-2020 15:26:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:26:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:26:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:26:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:26:08 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:26:08 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:26:08 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:26:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 15:26:08 UTC] PHP Stack trace:
+[01-Jun-2020 15:26:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:26:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:26:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:26:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:26:08 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:26:08 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:26:08 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:26:08 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:26:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 15:26:08 UTC] PHP Stack trace:
+[01-Jun-2020 15:26:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:26:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:26:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:26:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:26:08 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 15:26:08 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 15:26:08 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 15:26:08 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 15:26:08 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:26:08 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:26:08 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 15:26:08 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:26:08 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:26:08 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:26:58 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 15:26:58 UTC] PHP Stack trace:
+[01-Jun-2020 15:26:58 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:26:58 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:26:58 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:26:58 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:26:58 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:26:58 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:26:58 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:26:58 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 15:26:58 UTC] PHP Stack trace:
+[01-Jun-2020 15:26:58 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:26:58 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:26:58 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:26:58 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:26:58 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:26:58 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:26:58 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:26:58 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 15:26:58 UTC] PHP Stack trace:
+[01-Jun-2020 15:26:58 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:26:58 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:26:58 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:26:58 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:26:58 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:26:58 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:26:58 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:26:58 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:26:58 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 15:26:58 UTC] PHP Stack trace:
+[01-Jun-2020 15:26:58 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:26:58 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:26:58 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:26:58 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:26:58 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 15:26:58 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 15:26:58 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 15:26:58 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 15:26:58 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:26:58 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:26:58 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 15:26:58 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:26:58 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:26:58 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:28:49 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 15:28:49 UTC] PHP Stack trace:
+[01-Jun-2020 15:28:49 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:28:49 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:28:49 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:28:49 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:28:49 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:28:49 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:28:49 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:28:49 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 15:28:49 UTC] PHP Stack trace:
+[01-Jun-2020 15:28:49 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:28:49 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:28:49 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:28:49 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:28:49 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:28:49 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:28:49 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:28:49 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 15:28:49 UTC] PHP Stack trace:
+[01-Jun-2020 15:28:49 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:28:49 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:28:49 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:28:49 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:28:49 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 15:28:49 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:28:49 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 15:28:49 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 15:28:50 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 15:28:50 UTC] PHP Stack trace:
+[01-Jun-2020 15:28:50 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 15:28:50 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 15:28:50 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 15:28:50 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 15:28:50 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 15:28:50 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 15:28:50 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 15:28:50 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 15:28:50 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:28:50 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 15:28:50 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 15:28:50 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:28:50 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 15:28:50 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:25:57 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 16:25:57 UTC] PHP Stack trace:
+[01-Jun-2020 16:25:57 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:25:57 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:25:57 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:25:57 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 16:25:57 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:25:57 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:25:57 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:25:57 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 16:25:57 UTC] PHP Stack trace:
+[01-Jun-2020 16:25:57 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:25:57 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:25:57 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:25:57 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 16:25:57 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:25:57 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:25:57 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:25:57 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 16:25:57 UTC] PHP Stack trace:
+[01-Jun-2020 16:25:57 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:25:57 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:25:57 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:25:57 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 16:25:57 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:25:57 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:25:57 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:25:57 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:25:57 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 16:25:57 UTC] PHP Stack trace:
+[01-Jun-2020 16:25:57 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:25:57 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:25:57 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:25:57 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 16:25:57 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 16:25:57 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 16:25:57 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 16:25:57 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 16:25:57 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 16:25:57 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 16:25:57 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 16:25:57 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:25:57 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:25:57 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:26:46 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 16:26:46 UTC] PHP Stack trace:
+[01-Jun-2020 16:26:46 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:26:46 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:26:46 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:26:46 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 16:26:46 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:26:46 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:26:46 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:26:46 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 16:26:46 UTC] PHP Stack trace:
+[01-Jun-2020 16:26:46 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:26:46 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:26:46 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:26:46 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 16:26:46 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:26:46 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:26:46 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:26:46 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 16:26:46 UTC] PHP Stack trace:
+[01-Jun-2020 16:26:46 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:26:46 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:26:46 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:26:46 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 16:26:46 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:26:46 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:26:46 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:26:46 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:26:46 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 16:26:46 UTC] PHP Stack trace:
+[01-Jun-2020 16:26:46 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:26:46 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:26:46 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:26:46 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:335
+[01-Jun-2020 16:26:46 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 16:26:46 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 16:26:46 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 16:26:46 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 16:26:46 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 16:26:46 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 16:26:46 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 16:26:46 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:26:46 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:26:46 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:33:30 UTC] {"transaction_details":{"order_id":1588239030,"gross_amount":200000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"2","name":"Genset-Ifanite 100 Kva"}],"customer_details":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","phone":"646464667","shipping_address":{"first_name":"gui2","last_name":"gui2","email":"stfpekalongan@gmail.com","address":"hshshs"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-01 16:33:30 +0000","unit":"minute","duration":60}}
+[01-Jun-2020 16:33:30 UTC] 95b878ec-6d00-4e01-b913-9d79b8faa964
+[01-Jun-2020 16:45:58 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 16:45:58 UTC] PHP Stack trace:
+[01-Jun-2020 16:45:58 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:45:58 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:45:58 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:45:58 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:45:58 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:45:58 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:45:58 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:45:58 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 16:45:58 UTC] PHP Stack trace:
+[01-Jun-2020 16:45:58 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:45:58 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:45:58 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:45:58 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:45:58 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:45:58 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:45:58 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:45:58 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 16:45:58 UTC] PHP Stack trace:
+[01-Jun-2020 16:45:58 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:45:58 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:45:58 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:45:58 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:45:58 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:45:58 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:45:58 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:45:58 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:45:58 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 16:45:58 UTC] PHP Stack trace:
+[01-Jun-2020 16:45:58 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:45:58 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:45:58 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:45:58 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:45:58 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 16:45:58 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 16:45:58 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 16:45:58 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 16:45:58 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 16:45:58 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 16:45:58 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 16:45:58 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:45:58 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:45:58 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:47:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 16:47:08 UTC] PHP Stack trace:
+[01-Jun-2020 16:47:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:47:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:47:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:47:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:47:08 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:47:08 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:47:08 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:47:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 16:47:08 UTC] PHP Stack trace:
+[01-Jun-2020 16:47:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:47:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:47:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:47:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:47:08 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:47:08 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:47:08 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:47:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 16:47:08 UTC] PHP Stack trace:
+[01-Jun-2020 16:47:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:47:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:47:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:47:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:47:08 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:47:08 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:47:08 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:47:08 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:47:08 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 16:47:08 UTC] PHP Stack trace:
+[01-Jun-2020 16:47:08 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:47:08 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:47:08 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:47:08 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:47:08 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 16:47:08 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 16:47:08 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 16:47:08 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 16:47:08 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 16:47:08 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 16:47:08 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 16:47:08 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:47:08 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:47:08 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:48:46 UTC] {"transaction_details":{"order_id":4074548,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"gui3","last_name":"guid3","email":"stfpekalongan@gmail.com","phone":"646464664","shipping_address":{"first_name":"gui3","last_name":"guid3","email":"stfpekalongan@gmail.com","address":"hshshs"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-01 16:48:46 +0000","unit":"minute","duration":60}}
+[01-Jun-2020 16:48:46 UTC] efe59007-7e5a-4aff-a015-e951a2030dde
+[01-Jun-2020 16:50:49 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 16:50:49 UTC] PHP Stack trace:
+[01-Jun-2020 16:50:49 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:50:49 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:50:49 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:50:49 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:50:49 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:50:49 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:50:49 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:50:49 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 16:50:49 UTC] PHP Stack trace:
+[01-Jun-2020 16:50:49 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:50:49 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:50:49 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:50:49 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:50:49 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:50:49 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:50:49 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:50:49 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 16:50:49 UTC] PHP Stack trace:
+[01-Jun-2020 16:50:49 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:50:49 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:50:49 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:50:49 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:50:49 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:50:49 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:50:49 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:50:49 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:50:50 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 16:50:50 UTC] PHP Stack trace:
+[01-Jun-2020 16:50:50 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:50:50 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:50:50 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:50:50 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:50:50 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 16:50:50 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 16:50:50 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 16:50:50 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 16:50:50 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 16:50:50 UTC] PHP  10. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 16:50:50 UTC] PHP  11. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:50:50 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:50:50 UTC] PHP  13. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:52:48 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 743
+[01-Jun-2020 16:52:48 UTC] PHP Stack trace:
+[01-Jun-2020 16:52:48 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:52:48 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:52:48 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:52:48 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:52:48 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:52:48 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:52:48 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:52:48 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php on line 763
+[01-Jun-2020 16:52:48 UTC] PHP Stack trace:
+[01-Jun-2020 16:52:48 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:52:48 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:52:48 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:52:48 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:52:48 UTC] PHP   5. spl_autoload_call() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:52:48 UTC] PHP   6. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:52:48 UTC] PHP   7. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:52:48 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/stylesheet.cls.php on line 1102
+[01-Jun-2020 16:52:48 UTC] PHP Stack trace:
+[01-Jun-2020 16:52:48 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:52:48 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:52:48 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:52:48 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:52:48 UTC] PHP   5. DOMPDF->__construct() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:10
+[01-Jun-2020 16:52:48 UTC] PHP   6. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:52:48 UTC] PHP   7. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:267
+[01-Jun-2020 16:52:48 UTC] PHP   8. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 16:53:37 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/text_renderer.cls.php on line 126
+[01-Jun-2020 16:53:37 UTC] PHP Stack trace:
+[01-Jun-2020 16:53:37 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 16:53:37 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 16:53:37 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 16:53:37 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 16:53:37 UTC] PHP   5. DOMPDF->render() /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php:12
+[01-Jun-2020 16:53:37 UTC] PHP   6. Page_Frame_Decorator->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/dompdf.cls.php:973
+[01-Jun-2020 16:53:37 UTC] PHP   7. Page_Frame_Reflower->reflow() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/frame_decorator.cls.php:711
+[01-Jun-2020 16:53:37 UTC] PHP   8. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/page_frame_reflower.cls.php:130
+[01-Jun-2020 16:53:37 UTC] PHP   9. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 16:53:37 UTC] PHP  10. Renderer->render() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:190
+[01-Jun-2020 16:53:37 UTC] PHP  11. Renderer->_render_frame() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:101
+[01-Jun-2020 16:53:37 UTC] PHP  12. spl_autoload_call() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:53:37 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/rencarac/rencara.com/store/vendor/dompdf/dompdf/include/renderer.cls.php:257
+[01-Jun-2020 16:53:37 UTC] PHP  14. Composer\Autoload\includeFile() /home/rencarac/rencara.com/store/vendor/composer/ClassLoader.php:322
+[01-Jun-2020 17:00:34 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/dompdf/dompdf/dompdf_config.inc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php on line 8
+[01-Jun-2020 17:00:34 UTC] PHP Stack trace:
+[01-Jun-2020 17:00:34 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 17:00:34 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 17:00:34 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 17:00:34 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 17:00:43 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/dompdf/dompdf/dompdf_config.inc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php on line 8
+[01-Jun-2020 17:00:43 UTC] PHP Stack trace:
+[01-Jun-2020 17:00:43 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 17:00:43 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 17:00:43 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 17:00:43 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 17:00:54 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/dompdf/dompdf/dompdf_config.inc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php on line 8
+[01-Jun-2020 17:00:54 UTC] PHP Stack trace:
+[01-Jun-2020 17:00:54 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 17:00:54 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 17:00:54 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 17:00:54 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 17:01:06 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/dompdf/dompdf/dompdf_config.inc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php on line 8
+[01-Jun-2020 17:01:06 UTC] PHP Stack trace:
+[01-Jun-2020 17:01:06 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 17:01:06 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 17:01:06 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 17:01:06 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 17:13:41 UTC] PHP Fatal error:  require(): Failed opening required '/home/rencarac/rencara.com/store/vendor/composer/../symfony/polyfill-ctype/bootstrap.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/rencarac/rencara.com/store/vendor/composer/autoload_real.php on line 69
+[01-Jun-2020 17:13:41 UTC] PHP Stack trace:
+[01-Jun-2020 17:13:41 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 17:13:41 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 17:13:41 UTC] PHP   3. require_once() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:178
+[01-Jun-2020 17:13:41 UTC] PHP   4. ComposerAutoloaderInit4ccacb80074647025dc8cf3b9853b6e6::getLoader() /home/rencarac/rencara.com/store/vendor/autoload.php:7
+[01-Jun-2020 17:13:41 UTC] PHP   5. composerRequire4ccacb80074647025dc8cf3b9853b6e6() /home/rencarac/rencara.com/store/vendor/composer/autoload_real.php:59
+[01-Jun-2020 17:14:10 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/dompdf/dompdf/dompdf_config.inc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php on line 8
+[01-Jun-2020 17:14:10 UTC] PHP Stack trace:
+[01-Jun-2020 17:14:10 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 17:14:10 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 17:14:10 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 17:14:10 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 17:14:15 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/dompdf/dompdf/dompdf_config.inc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php on line 8
+[01-Jun-2020 17:14:15 UTC] PHP Stack trace:
+[01-Jun-2020 17:14:15 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 17:14:15 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 17:14:15 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 17:14:15 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 17:16:51 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/dompdf/dompdf/dompdf_config.inc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php on line 8
+[01-Jun-2020 17:16:51 UTC] PHP Stack trace:
+[01-Jun-2020 17:16:51 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 17:16:51 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 17:16:51 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 17:16:51 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 17:16:54 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/dompdf/dompdf/dompdf_config.inc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php on line 8
+[01-Jun-2020 17:16:54 UTC] PHP Stack trace:
+[01-Jun-2020 17:16:54 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 17:16:54 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 17:16:54 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 17:16:54 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 17:18:05 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/dompdf/dompdf/autoload.inc.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/rencarac/rencara.com/store/application/libraries/PdfGenerator.php on line 8
+[01-Jun-2020 17:18:05 UTC] PHP Stack trace:
+[01-Jun-2020 17:18:05 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[01-Jun-2020 17:18:05 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[01-Jun-2020 17:18:05 UTC] PHP   3. Cust->pdf() /home/rencarac/rencara.com/store/system/core/CodeIgniter.php:532
+[01-Jun-2020 17:18:05 UTC] PHP   4. PdfGenerator->generate() /home/rencarac/rencara.com/store/application/controllers/Cust.php:336
+[01-Jun-2020 18:57:07 UTC] {"transaction_details":{"order_id":922487097,"gross_amount":750000},"item_details":[{"id":"kyo137 ","price":"150000","quantity":"3","name":"Lampu HALOGEN"},{"id":"kyo905 ","price":"100000","quantity":"3","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"test","last_name":"testing user","email":"kambingkambing36@gmail.com","phone":"22188844","shipping_address":{"first_name":"test","last_name":"testing user","email":"kambingkambing36@gmail.com","address":"hshshhs"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-01 18:57:07 +0000","unit":"minute","duration":60}}
+[01-Jun-2020 18:57:08 UTC] 50861c22-db2a-4c74-aab7-e35f192b529c
+[01-Jun-2020 19:43:03 UTC] {"transaction_details":{"order_id":328543906,"gross_amount":15920000},"item_details":[{"id":"kyo130 ","price":"100000","quantity":"2","name":"Genset-Sawakami GFH-5880LX"},{"id":"kyo460 ","price":"5000000","quantity":"3","name":"Paket Lampu Sorot Panggung"},{"id":"kyo797 ","price":"100000","quantity":"5","name":"Tenda Roder"},{"id":"kyo661 ","price":"100000","quantity":"1","name":"Genset-Mitsubishi 50 Kva"},{"id":"kyo173 ","price":"40000","quantity":"3","name":"Tenda Terop Plavon"}],"customer_details":{"first_name":"test","last_name":"testing user","email":"kambingkambing36@gmail.com","phone":"22188844","shipping_address":{"first_name":"test","last_name":"testing user","email":"kambingkambing36@gmail.com","address":"hshshhs"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-01 19:43:03 +0000","unit":"minute","duration":60}}
+[01-Jun-2020 19:43:03 UTC] 80b6a20c-ea60-4656-ae9c-5b094ed1b703
+[03-Jun-2020 02:28:35 UTC] {"transaction_details":{"order_id":1371400289,"gross_amount":19600000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"1","name":"Genset-Ifanite 100 Kva"},{"id":"kyo369 ","price":"6500000","quantity":"3","name":"Panggung Semmi rigging "}],"customer_details":{"first_name":"kesyha","last_name":"kesyhaana","email":"stfpekalongan@gmail.com","phone":"12121312312","shipping_address":{"first_name":"kesyha","last_name":"kesyhaana","email":"stfpekalongan@gmail.com","address":"jl.kokokokokokokkokokookokok"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-03 02:28:35 +0000","unit":"minute","duration":60}}
+[03-Jun-2020 02:28:35 UTC] f8b04498-ed4b-42a0-8715-052b9a4a116f
+[06-Jun-2020 13:02:22 UTC] {"transaction_details":{"order_id":699910389,"gross_amount":650000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"2","name":"Genset-Ifanite 100 Kva"},{"id":"kyo137 ","price":"150000","quantity":"3","name":"Lampu HALOGEN"}],"customer_details":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","phone":"5251231231","shipping_address":{"first_name":"clo","last_name":"clo1","email":"clonerxyz@gmail.com","address":"jl.woakowkoakw"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-06 13:02:22 +0000","unit":"minute","duration":60}}
+[06-Jun-2020 13:02:22 UTC] c57db5b7-a82c-4227-97fd-2f746cb3d09a
+[07-Jun-2020 12:45:30 UTC] {"transaction_details":{"order_id":261898219,"gross_amount":500000},"item_details":[{"id":"kyo123 ","price":"250000","quantity":"2","name":"Lampu Par-LED "}],"customer_details":{"first_name":"Hapsah","last_name":"Hapsah","email":"Hapsah@gmail.com","phone":"0822166456789","shipping_address":{"first_name":"Hapsah","last_name":"Hapsah","email":"Hapsah@gmail.com","address":"Jl. Belitung VIII"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-07 12:45:30 +0000","unit":"minute","duration":60}}
+[07-Jun-2020 12:45:30 UTC] 3e849d4e-9ddd-4d1d-afb2-6f2c19849d71
+[10-Jun-2020 10:35:24 UTC] {"transaction_details":{"order_id":959650998,"gross_amount":0},"item_details":null,"customer_details":{"first_name":"gui","last_name":"graphical 007","email":"clonerxyz@gmail.com","phone":"232131","shipping_address":{"first_name":"gui","last_name":"graphical 007","email":"clonerxyz@gmail.com","address":"jl.waowoakowk"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-10 10:35:24 +0000","unit":"minute","duration":60}}
+[10-Jun-2020 10:44:57 UTC] {"transaction_details":{"order_id":1498786025,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","phone":"089727626189","shipping_address":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","address":"Jl. Sukabirus gang slamet 3 Kos kolonel"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-10 10:44:57 +0000","unit":"minute","duration":60}}
+[10-Jun-2020 10:44:57 UTC] be3e8c55-6619-4550-b120-efa994b305fc
+[10-Jun-2020 19:33:47 UTC] {"transaction_details":{"order_id":497297398,"gross_amount":125000},"item_details":[{"id":"kyo164 ","price":"125000","quantity":"1","name":"Tenda Roder"}],"customer_details":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","phone":"089727626189","shipping_address":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","address":"Jl. Sukabirus gang slamet 3 Kos kolonel"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-10 19:33:47 +0000","unit":"minute","duration":60}}
+[10-Jun-2020 19:33:47 UTC] cf9c89bf-31fe-4c31-a442-73b926b70239
+[11-Jun-2020 08:25:46 UTC] PHP Fatal error:  Cannot redeclare Vendor::editprof() in /home/rencarac/rencara.com/store/application/controllers/Vendor.php on line 139
+[11-Jun-2020 08:25:46 UTC] PHP Stack trace:
+[11-Jun-2020 08:25:46 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[11-Jun-2020 08:25:46 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[11-Jun-2020 12:38:29 UTC] PHP Fatal error:  Cannot redeclare Vendor::eprfi() in /home/rencarac/rencara.com/store/application/controllers/Vendor.php on line 197
+[11-Jun-2020 12:38:29 UTC] PHP Stack trace:
+[11-Jun-2020 12:38:29 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[11-Jun-2020 12:38:29 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[11-Jun-2020 16:20:55 UTC] {"transaction_details":{"order_id":854209130,"gross_amount":1100000},"item_details":[{"id":"kyo137 ","price":"800000","quantity":"1","name":"Lampu Confetti sepasang"},{"id":"kyo146 ","price":"150000","quantity":"1","name":"Genset-Spakins TNG-1500A"},{"id":"kyo279 ","price":"150000","quantity":"1","name":"Genset-Genpac"}],"customer_details":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","phone":"089727626189","shipping_address":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","address":"Jl. Sukabirus gang slamet 3 Kos kolonel"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-11 16:20:55 +0000","unit":"minute","duration":60}}
+[11-Jun-2020 16:20:55 UTC] a8da934b-a928-46bf-b86a-eba00352761d
+[11-Jun-2020 17:12:19 UTC] {"transaction_details":{"order_id":1531594478,"gross_amount":300000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"1","name":"Genset-Ifanite 100 Kva"},{"id":"kyo130 ","price":"100000","quantity":"1","name":"Genset-Sawakami GFH-5880LX"},{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","phone":"089727626189","shipping_address":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","address":"Jl. Sukabirus gang slamet 3 Kos kolonel"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-11 17:12:19 +0000","unit":"minute","duration":60}}
+[11-Jun-2020 17:12:19 UTC] 09981dfa-8171-4d41-99ef-173db8b26193
+[12-Jun-2020 13:24:28 UTC] PHP Fatal error:  Cannot redeclare Cust::eprpw() in /home/rencarac/rencara.com/store/application/controllers/Cust.php on line 436
+[12-Jun-2020 13:24:28 UTC] PHP Stack trace:
+[12-Jun-2020 13:24:28 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[12-Jun-2020 13:24:28 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[13-Jun-2020 18:18:52 UTC] PHP Fatal error:  Cannot use [] for reading in /home/rencarac/rencara.com/store/application/controllers/Vendor.php on line 227
+[13-Jun-2020 18:18:52 UTC] PHP Stack trace:
+[13-Jun-2020 18:18:52 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[13-Jun-2020 18:18:52 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[14-Jun-2020 09:17:03 UTC] {"transaction_details":{"order_id":238346092,"gross_amount":300000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"},{"id":"kyo137 ","price":"100000","quantity":"1","name":"Genset-Ifanite 100 Kva"},{"id":"kyo119 ","price":"100000","quantity":"1","name":"Genset-Matsuko MDG-150"}],"customer_details":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","phone":"089727626189","shipping_address":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","address":"Jl. Sukabirus gang slamet 3 Kos kolonel 3"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-14 09:17:03 +0000","unit":"minute","duration":60}}
+[14-Jun-2020 09:17:04 UTC] f782b9f9-3eef-4fcf-aa8e-1f011ed96c54
+[14-Jun-2020 09:50:18 UTC] {"transaction_details":{"order_id":1276507341,"gross_amount":300000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"1","name":"Genset-Ifanite 100 Kva"},{"id":"kyo130 ","price":"100000","quantity":"2","name":"Genset-Sawakami GFH-5880LX"}],"customer_details":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","phone":"089727626189","shipping_address":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","address":"Jl. Sukabirus gang slamet 3 Kos kolonel 3"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-14 09:50:18 +0000","unit":"minute","duration":60}}
+[14-Jun-2020 09:50:19 UTC] 8777d2d4-3855-4dff-93ed-f61a715e83e1
+[14-Jun-2020 10:17:01 UTC] {"transaction_details":{"order_id":1335030319,"gross_amount":300000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"1","name":"Genset-Ifanite 100 Kva"},{"id":"kyo130 ","price":"100000","quantity":"2","name":"Genset-Sawakami GFH-5880LX"}],"customer_details":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","phone":"089727626189","shipping_address":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","address":"Jl. Sukabirus gang slamet 3 Kos kolonel 3"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-14 10:17:01 +0000","unit":"minute","duration":60}}
+[14-Jun-2020 10:17:02 UTC] acc0ec52-6196-4c8f-8e39-2471bb3b9f38
+[14-Jun-2020 10:58:07 UTC] {"transaction_details":{"order_id":911541145,"gross_amount":600000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"1","name":"Genset-Ifanite 100 Kva"},{"id":"kyo279 ","price":"150000","quantity":"2","name":"Genset-Genpac"},{"id":"kyo119 ","price":"100000","quantity":"2","name":"Genset-Matsuko MDG-150"}],"customer_details":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","phone":"0828877277","shipping_address":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","address":"Jalan Mau rebahan 1"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-14 10:58:07 +0000","unit":"minute","duration":60}}
+[14-Jun-2020 10:58:08 UTC] dc0e1a9c-d012-4d1a-b637-f3cd60ab40d1
+[14-Jun-2020 11:00:12 UTC] {"transaction_details":{"order_id":2021125213,"gross_amount":600000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"1","name":"Genset-Ifanite 100 Kva"},{"id":"kyo279 ","price":"150000","quantity":"2","name":"Genset-Genpac"},{"id":"kyo119 ","price":"100000","quantity":"2","name":"Genset-Matsuko MDG-150"}],"customer_details":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","phone":"0828877277","shipping_address":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","address":"Jalan Mau rebahan 1"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-14 11:00:12 +0000","unit":"minute","duration":60}}
+[14-Jun-2020 11:00:12 UTC] f311b94d-d0a3-461e-9280-0b7bd3061daa
+[14-Jun-2020 11:03:31 UTC] {"transaction_details":{"order_id":1638112572,"gross_amount":400000},"item_details":[{"id":"kyo137 ","price":"100000","quantity":"2","name":"Genset-Ifanite 100 Kva"},{"id":"kyo661 ","price":"100000","quantity":"2","name":"Genset-Mitsubishi 50 Kva"}],"customer_details":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","phone":"0828877277","shipping_address":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","address":"Jalan Mau rebahan 1"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-14 11:03:31 +0000","unit":"minute","duration":60}}
+[14-Jun-2020 11:03:31 UTC] 50549ba3-de59-4fd6-9260-42141213b7cd
+[15-Jun-2020 10:12:44 UTC] {"transaction_details":{"order_id":853352641,"gross_amount":100000},"item_details":[{"id":"kyo905 ","price":"100000","quantity":"1","name":"Genset-Perkins 100 Kva"}],"customer_details":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","phone":"0828877277","shipping_address":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","address":"Jalan Mau rebahan 1"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-15 10:12:44 +0000","unit":"minute","duration":60}}
+[15-Jun-2020 10:12:45 UTC] 875a7256-aa6b-4489-b324-6a6d4541b8e1
+[16-Jun-2020 15:04:35 UTC] {"transaction_details":{"order_id":444008414,"gross_amount":150000},"item_details":[{"id":"kyo279 ","price":"150000","quantity":"1","name":"Genset-Genpac "}],"customer_details":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","phone":"0828877277","shipping_address":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","address":"Jalan Mau rebahan 1"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-16 15:04:35 +0000","unit":"minute","duration":60}}
+[16-Jun-2020 15:04:35 UTC] d0ac52cc-79f6-484c-8cc6-de99026dfd59
+[16-Jun-2020 18:34:46 UTC] PHP Fatal error:  Cannot redeclare Admin::eprpw() in /home/rencarac/rencara.com/store/application/controllers/Admin.php on line 248
+[16-Jun-2020 18:34:46 UTC] PHP Stack trace:
+[16-Jun-2020 18:34:46 UTC] PHP   1. {main}() /home/rencarac/rencara.com/store/index.php:0
+[16-Jun-2020 18:34:46 UTC] PHP   2. require_once() /home/rencarac/rencara.com/store/index.php:315
+[16-Jun-2020 19:07:32 UTC] {"transaction_details":{"order_id":828544988,"gross_amount":1600000},"item_details":[{"id":"kyo752 ","price":"1500000","quantity":"1","name":"Sound System"},{"id":"kyo130 ","price":"100000","quantity":"1","name":"Genset-Sawakami GFH-5880LX"}],"customer_details":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","phone":"0828877277","shipping_address":{"first_name":"sajidahR","last_name":"Sajidah Rachmawati","email":"sajidarachmawati@gmail.com","address":"Jalan Mau rebahan 1"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-16 19:07:32 +0000","unit":"minute","duration":60}}
+[16-Jun-2020 19:07:33 UTC] 4bffc29f-80ec-4c97-9433-037c7760e7af
+[17-Jun-2020 20:07:21 UTC] {"transaction_details":{"order_id":2121184431,"gross_amount":800000},"item_details":[{"id":"kyo137 ","price":"800000","quantity":"1","name":"Lampu Confetti sepasang"}],"customer_details":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","phone":"089727626189","shipping_address":{"first_name":"clo","last_name":"clonerxyz","email":"clonerxyz@gmail.com","address":"Jl. Sukabirus gang slamet 3 Kos kolonel 35"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-17 20:07:21 +0000","unit":"minute","duration":60}}
+[17-Jun-2020 20:07:21 UTC] 37e046dd-5041-4264-b2c2-57b3973ead8d
+[17-Jun-2020 23:44:00 UTC] {"transaction_details":{"order_id":319722592,"gross_amount":750000},"item_details":[{"id":"kyo317 ","price":"250000","quantity":"3","name":"Lampu Strobo"}],"customer_details":{"first_name":"mega","last_name":"akatsukimega","email":"stfpekalongan@gmail.com","phone":"84854545122","shipping_address":{"first_name":"mega","last_name":"akatsukimega","email":"stfpekalongan@gmail.com","address":"jl.sunagakureblok77"}},"credit_card":{"secure":true},"expiry":{"start_time":"2020-06-17 23:44:00 +0000","unit":"minute","duration":60}}
+[17-Jun-2020 23:44:00 UTC] ad381e35-1e24-4157-96c5-7ddb895aac6d

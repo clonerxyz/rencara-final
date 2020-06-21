@@ -44,9 +44,6 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-INSERT INTO `admin` (`ida`, `n_admin`, `contact`, `email`, `img`, `u_a`, `p_a`, `roster`, `s_login`) VALUES
-(1, 'clo', '3232', 'clonerxyz@gmail.com', 'aes3.PNG', 'clonerxyz', 'UXdlMTIzIUAj', 'admin', 'idle'),
-(2, 'sajidah', '89982882', 'sajidahrachmawati@gmail.com', '', 'sjdhrc', 'UXdlMTIzIUAj', 'admin', 'idle');
 
 -- --------------------------------------------------------
 
@@ -97,14 +94,6 @@ CREATE TABLE `customer` (
 -- Dumping data for table `customer`
 --
 
-INSERT INTO `customer` (`idc`, `n_cust`, `contact`, `alamat`, `imgc`, `u_c`, `p_c`, `roster`, `s_login`, `phone`) VALUES
-(73, 'clonerxyz', 'clonerxyz@gmail.com', 'Jl. Sukabirus gang slamet 3 Kos kolonel 35', 'user32.jpg', 'clo', 'MQ==', 'user', 'idle', '089727626189'),
-(75, 'graphical 007', 'clonerxyz@gmail.com', 'jl.waowoakowk', 'images_(10)1.jpeg', 'gui', 'eXVpMTIz', 'user', 'idle', '232131'),
-(76, 'gui2', 'stfpekalongan@gmail.com', 'hshshs', 'images.jpeg', 'gui2', 'MQ==', 'user', 'idle', '333333'),
-(80, 'Qatrun Nada', 'nadaoyama@gmail.com', 'padasuka', '', 'nadadv', 'bmFkYW5hZGE=', 'user', 'idle', '123'),
-(81, 'cobaaja', 'clonerxyz@gmail.com', 'hshshsh', '952102.png', 'coba', 'MQ==', 'user', 'idle', '08455455181'),
-(86, 'Sajidah Rachmawati', 'sajidarachmawati@gmail.com', 'Jalan Mau rebahan 1', 'WhatsApp_Image_2020-06-14_at_5_42_23_PM.jpeg', 'sajidahR', 'Z3Jlc2lramF5YTI5', 'user', 'idle', '0828877277'),
-(92, 'akatsukimega', 'stfpekalongan@gmail.com', 'jl.sunagakureblok77', 'images_(3).jpeg', 'mega', 'MQ==', 'user', 'idle', '84854545122');
 
 -- --------------------------------------------------------
 
@@ -125,9 +114,6 @@ CREATE TABLE `fund_v` (
 -- Dumping data for table `fund_v`
 --
 
-INSERT INTO `fund_v` (`idf`, `order_id`, `price`, `vendor`, `rekening`, `status`) VALUES
-(7, ' 319722592', '750000', 'kyodai', 'Nama Bank : mandiri\r\n\r\nNo.Rekening : 2929838387383\r\n\r\n\r\nAtas Nama : kyodai', 'sudah di acc'),
-(6, ' 261898219', '500000', 'kyodai', 'Nama Bank : BCA \r\n\r\nNo.Rekening : 28108012884080\r\n\r\n\r\nAtas Nama : KYODAI', 'sudah di acc');
 
 -- --------------------------------------------------------
 
@@ -221,38 +207,6 @@ CREATE TABLE `midtrans_item_detail` (
 -- Dumping data for table `midtrans_item_detail`
 --
 
-INSERT INTO `midtrans_item_detail` (`idd`, `id`, `idit`, `midtrans_id`, `price`, `quantity`, `name`, `vendor`, `customer`, `payable`) VALUES
-(271, 75, 'kyo571 ', 1, 5500000, 2, 'Panggung Semmi rigging ', 'kyodai', '41233', 'no'),
-(274, 84, 'kyo123 ', 261898219, 250000, 2, 'Lampu Par-LED ', 'kyodai', 'Hapsah', 'settlement'),
-(276, 49, 'kyo905 ', 1498786025, 100000, 1, 'Genset-Perkins 100 Kva', 'kyodai', 'clo', 'expire'),
-(277, 71, 'kyo164 ', 497297398, 125000, 1, 'Tenda Roder', 'kyodai', 'clo', 'expire'),
-(278, 88, 'kyo137 ', 854209130, 800000, 1, 'Lampu Confetti sepasang', 'kyodai', 'clo', 'settlement'),
-(279, 58, 'kyo146 ', 854209130, 150000, 1, 'Genset-Spakins TNG-1500A', 'kyodai', 'clo', 'settlement'),
-(280, 53, 'kyo279 ', 854209130, 150000, 1, 'Genset-Genpac', 'kyodai', 'clo', 'settlement'),
-(281, 50, 'kyo137 ', 1531594478, 100000, 1, 'Genset-Ifanite 100 Kva', 'kyodai', 'clo', 'settlement'),
-(282, 51, 'kyo130 ', 1531594478, 100000, 1, 'Genset-Sawakami GFH-5880LX', 'kyodai', 'clo', 'settlement'),
-(283, 49, 'kyo905 ', 1531594478, 100000, 1, 'Genset-Perkins 100 Kva', 'kyodai', 'clo', 'settlement'),
-(286, 50, 'kyo137 ', 2021125213, 100000, 1, 'Genset-Ifanite 100 Kva', 'kyodai', 'sajidahR', 'settlement'),
-(301, 53, 'kyo279 ', 444008414, 150000, 1, 'Genset-Genpac ', 'kyodai', 'sajidahR', 'expire'),
-(300, 88, 'kyo137 ', 2121184431, 800000, 1, 'Lampu Confetti sepasang', 'kyodai', 'clo', 'settlement'),
-(290, 53, 'kyo279 ', 2021125213, 150000, 2, 'Genset-Genpac', 'kyodai', 'sajidahR', 'settlement'),
-(291, 48, 'kyo119 ', 2021125213, 100000, 2, 'Genset-Matsuko MDG-150', 'kyodai', 'sajidahR', 'settlement'),
-(292, 50, 'kyo137 ', 1638112572, 100000, 2, 'Genset-Ifanite 100 Kva', 'kyodai', 'sajidahR', 'expire'),
-(293, 55, 'kyo661 ', 1638112572, 100000, 2, 'Genset-Mitsubishi 50 Kva', 'kyodai', 'sajidahR', 'expire'),
-(298, 61, 'kyo173 ', 1, 40000, 1, 'Tenda Terop Plavon', 'kyodai', 'gui', 'no'),
-(299, 49, 'kyo905 ', 853352641, 100000, 1, 'Genset-Perkins 100 Kva', 'kyodai', 'sajidahR', 'settlement'),
-(302, 81, 'kyo752 ', 1, 1500000, 1, 'Sound System', 'kyodai', 'sajidahR', 'no'),
-(303, 51, 'kyo130 ', 1, 100000, 1, 'Genset-Sawakami GFH-5880LX', 'kyodai', 'sajidahR', 'no'),
-(305, 63, 'kyo127 ', 1, 50000, 1, 'Tenda dekorasi ', 'kyodai', 'sajidahR', 'no'),
-(312, 75, 'kyo571 ', 1, 5500000, 3, 'Panggung Semmi rigging ', 'kyodai', 'clo', 'no'),
-(311, 94, 'kyo213 ', 1, 500000, 3, 'Lampu tembak Panggung', 'kyodai', 'clo', 'no'),
-(310, 56, 'kyo592 ', 1, 100000, 3, 'Genset-Multi pro GG-9900/4 HPN', 'kyodai', 'clo', 'no'),
-(313, 58, 'kyo146 ', 1, 150000, 3, 'Genset-Spakins TNG-1500A', 'kyodai', 'clo', 'no'),
-(318, 91, 'kyo317 ', 319722592, 250000, 3, 'Lampu Strobo', 'kyodai', 'mega', 'settlement'),
-(316, 89, 'kyo137 ', 1, 150000, 3, 'Lampu HALOGEN', 'kyodai', '50070', 'no'),
-(317, 62, 'kyo371 ', 1, 50000, 3, 'Tenda dekorasi ', 'kyodai', '50070', 'no'),
-(321, 71, 'kyo164 ', 1, 125000, 3, 'Tenda Roder', 'kyodai', 'clo', 'no'),
-(322, 80, 'kyo357 ', 1, 1200000, 4, 'Sound System', 'kyodai', 'clo', 'no');
 
 -- --------------------------------------------------------
 
@@ -280,18 +234,6 @@ CREATE TABLE `midtrans_transaction` (
 -- Dumping data for table `midtrans_transaction`
 --
 
-INSERT INTO `midtrans_transaction` (`id`, `c_name`, `status_code`, `status_message`, `transaction_id`, `order_id`, `gross_amount`, `payment_type`, `transaction_time`, `transaction_status`, `bill_key`, `biller_code`, `pdf_url`) VALUES
-(82, 'clo', 201, 'Transaksi sedang diproses', '5954ceb5-ff7c-4568-94fb-b8ec159060f4', 2121184431, 800000, 'bank_transfer', '2020-06-18 03:07:29', 'settlement', NULL, NULL, 'https://app.sandbox.midtrans.com/snap/v1/transactions/37e046dd-5041-4264-b2c2-57b3973ead8d/pdf'),
-(81, 'sajidahR', 201, 'Transaksi sedang diproses', '631076fd-9a01-41fb-8e04-5e0102ec313a', 444008414, 150000, 'bank_transfer', '2020-06-16 22:04:43', 'expire', NULL, NULL, 'https://app.sandbox.midtrans.com/snap/v1/transactions/d0ac52cc-79f6-484c-8cc6-de99026dfd59/pdf'),
-(79, 'sajidahR', 201, 'Transaksi sedang diproses', 'aba0e473-ba13-481b-8ad9-11d2d4874f4f', 1638112572, 400000, 'bank_transfer', '2020-06-14 18:03:39', 'expire', NULL, NULL, 'https://app.sandbox.midtrans.com/snap/v1/transactions/50549ba3-de59-4fd6-9260-42141213b7cd/pdf'),
-(80, 'sajidahR', 201, 'Transaksi sedang diproses', 'fabad4c2-4c92-431c-a603-b1155696d19a', 853352641, 100000, 'bank_transfer', '2020-06-15 17:12:54', 'settlement', NULL, NULL, 'https://app.sandbox.midtrans.com/snap/v1/transactions/875a7256-aa6b-4489-b324-6a6d4541b8e1/pdf'),
-(83, 'mega', 201, 'Transaksi sedang diproses', 'c1f64179-e7f7-4f29-8115-c51ee2a10645', 319722592, 750000, 'bank_transfer', '2020-06-18 06:44:07', 'settlement', NULL, NULL, 'https://app.sandbox.midtrans.com/snap/v1/transactions/ad381e35-1e24-4157-96c5-7ddb895aac6d/pdf'),
-(78, 'sajidahR', 201, 'Transaksi sedang diproses', '33c6b459-aed3-4db6-92e5-ab10371dc293', 2021125213, 600000, 'bank_transfer', '2020-06-14 18:00:20', 'settlement', NULL, NULL, 'https://app.sandbox.midtrans.com/snap/v1/transactions/f311b94d-d0a3-461e-9280-0b7bd3061daa/pdf'),
-(76, 'clo', 201, 'Transaksi sedang diproses', '0226b3ce-f36d-451a-89c8-ca552ed88138', 1531594478, 300000, 'bank_transfer', '2020-06-12 00:12:25', 'settlement', NULL, NULL, 'https://app.sandbox.midtrans.com/snap/v1/transactions/09981dfa-8171-4d41-99ef-173db8b26193/pdf'),
-(74, 'clo', 201, 'Transaksi sedang diproses', '7c04523a-f0f2-4ed0-a2c5-b94cf03ef0b8', 497297398, 125000, 'bank_transfer', '2020-06-11 02:33:59', 'expire', NULL, NULL, 'https://app.sandbox.midtrans.com/snap/v1/transactions/cf9c89bf-31fe-4c31-a442-73b926b70239/pdf'),
-(75, 'clo', 201, 'Transaksi sedang diproses', '25dbb9b8-d4c1-41da-b3b0-9eba5ff6a0b3', 854209130, 1100000, 'bank_transfer', '2020-06-11 23:21:25', 'settlement', NULL, NULL, 'https://app.sandbox.midtrans.com/snap/v1/transactions/a8da934b-a928-46bf-b86a-eba00352761d/pdf'),
-(73, 'clo', 201, 'Transaksi sedang diproses', '00bd09f5-1e62-489f-a239-1d2bde7fd698', 1498786025, 100000, 'bank_transfer', '2020-06-10 17:45:03', 'expire', NULL, NULL, 'https://app.sandbox.midtrans.com/snap/v1/transactions/be3e8c55-6619-4550-b120-efa994b305fc/pdf'),
-(72, 'Hapsah', 201, 'Transaksi sedang diproses', '35fe8d42-15f2-4f3b-b2b9-87dabdfc55e2', 261898219, 500000, 'bank_transfer', '2020-06-07 19:46:05', 'settlement', NULL, NULL, 'https://app.sandbox.midtrans.com/snap/v1/transactions/3e849d4e-9ddd-4d1d-afb2-6f2c19849d71/pdf');
 
 -- --------------------------------------------------------
 
@@ -312,27 +254,6 @@ CREATE TABLE `order_plan` (
 -- Dumping data for table `order_plan`
 --
 
-INSERT INTO `order_plan` (`ido`, `subject`, `order_id`, `vendor`, `customer`, `isi_tiket`) VALUES
-(128, 'Re : Item sudah di kembalikan order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear vendor kyodai \r\n\r\nTerimakasih Atas support dan kerja sama nya \r\n\r\n\r\nRegards, \r\nmega \r\nRencara Client '),
-(129, 'Close Order order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear customer mega \r\n\r\nUntuk Order berikut : 319722592 akan kami close \r\n\r\nTerimakasih Telah menggunakan Jasa kami untuk mensukes kan acara anda.\r\n\r\n\r\nRegards, \r\nkyodai \r\nRencara Team '),
-(130, 'Re : Close Order order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear vendor kyodai \r\n\r\nTerimakasih Atas support dan kerja sama nya \r\n\r\n\r\nRegards, \r\nmega \r\nRencara Client '),
-(111, 'Order Di Proses order number : 854209130', 854209130, 'kyodai', 'clo', 'Dear customer clo \r\n\r\nPesanan dengan detail : \r\n\r\nItem name : \r\nLampu Confetti sepasang Quantity : 1\r\nGenset-Spakins TNG-1500A Quantity : 1\r\nGenset-Genpac Quantity : 1\r\n\r\n\r\nTotal price : Rp. 1.100.000,00\r\n\r\nakan segera di proses \r\n\r\nmohon untuk menyertakan detail \r\nno telp (yang valid)\r\nalamat lengkap (jika alamat pengantaran bukan merupakan alamat di profile anda) \r\n\r\n\r\nRegards, \r\nkyodai \r\nRencara Team '),
-(127, 'Item sudah di kembalikan order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear customer mega \r\n\r\nItem yang terdaftar di bawah : \r\n\r\nItem name : \r\nLampu Strobo Quantity : 3\r\n\r\n\r\nSudah kami terima kembali \r\n\r\n\r\nTerimakasih Telah menggunakan Jasa kami untuk mensukes kan acara anda.\r\n\r\n\r\nRegards, \r\nkyodai \r\nRencara Team '),
-(112, 'Re : Order Di Proses order number : 854209130', 854209130, 'kyodai', 'clo', 'Dear vendor kyodai \r\n\r\nTerimakasih Atas support dan kerja sama nya \r\n\r\n\r\nRegards, \r\nclo \r\nRencara Client '),
-(113, 'Ask Tanggal sewa order number : 854209130', 854209130, 'kyodai', 'clo', 'Dear customer clo \r\n\r\nmohon untuk menetapkan tanggal peminjaman dengan mereply tiket ini \r\n\r\n\r\nRegards, \r\nkyodai \r\nRencara Team '),
-(114, 'Re : Ask Tanggal sewa order number : 854209130', 854209130, 'kyodai', 'clo', 'Dear vendor kyodai \r\n\r\nBerikut kami tetapkan tanggal penerimaan barang yang sudah kami sewa\r\n\r\ntanggal : 2020-06-23\r\n\r\nTerimakasih Atas support dan kerja sama nya \r\n\r\n\r\nRegards, \r\nclo \r\nRencara Client '),
-(115, 'All item telah di kirimkan ke alamat order number : 854209130', 854209130, 'kyodai', 'clo', 'Dear customer clo \r\n\r\nPesanan dengan detail : \r\n\r\nItem name : \r\nLampu Confetti sepasang Quantity : 1\r\nGenset-Spakins TNG-1500A Quantity : 1\r\nGenset-Genpac Quantity : 1\r\n\r\n\r\nTotal price : Rp. 1.100.000,00\r\n\r\nsudah di antarkan ke Alamat Jl. Sukabirus gang slamet 3 Kos kolonel 35 \r\n\r\nRegards, \r\nkyodai \r\nRencara Team '),
-(117, 'Order Di Proses order number : 2021125213', 2021125213, 'kyodai', 'sajidahR', 'Dear customer sajidahR \r\n\r\nPesanan dengan detail : \r\n\r\nItem name : \r\nGenset-Ifanite 100 Kva Quantity : 1\r\nGenset-Genpac Quantity : 2\r\nGenset-Matsuko MDG-150 Quantity : 2\r\n\r\n\r\nTotal price : Rp. 600.000,00\r\n\r\nakan segera di proses \r\n\r\nmohon untuk menyertakan detail \r\nno telp (yang valid)\r\nalamat lengkap (jika alamat pengantaran bukan merupakan alamat di profile anda) \r\n\r\n\r\nRegards, \r\nkyodai \r\nRencara Team '),
-(119, 'Order Di Proses order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear customer mega \r\n\r\nPesanan dengan detail : \r\n\r\nItem name : \r\nLampu Strobo Quantity : 3\r\n\r\n\r\nTotal price : Rp. 750.000,00\r\n\r\nakan segera di proses \r\n\r\nmohon untuk menyertakan detail \r\nno telp (yang valid)\r\nalamat lengkap (jika alamat pengantaran bukan merupakan alamat di profile anda) \r\n\r\n\r\nRegards, \r\nkyodai \r\nRencara Team '),
-(120, 'Re : Order Di Proses order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear vendor kyodai \r\n\r\nTerimakasih Atas support dan kerja sama nya \r\n\r\n\r\nRegards, \r\nmega \r\nRencara Client '),
-(121, 'Ask Tanggal sewa order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear customer mega \r\n\r\nmohon untuk menetapkan tanggal peminjaman dengan mereply tiket ini \r\n\r\n\r\nRegards, \r\nkyodai \r\nRencara Team '),
-(122, 'Re : Ask Tanggal sewa order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear vendor kyodai \r\n\r\nBerikut kami tetapkan tanggal penerimaan barang yang sudah kami sewa\r\n\r\ntanggal : 2020-06-19\r\n\r\nTerimakasih Atas support dan kerja sama nya \r\n\r\n\r\nRegards, \r\nmega \r\nRencara Client '),
-(123, 'All item telah di kirimkan ke alamat order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear customer mega \r\n\r\nPesanan dengan detail : \r\n\r\nItem name : \r\nLampu Strobo Quantity : 3\r\n\r\n\r\nTotal price : Rp. 750.000,00\r\n\r\nsudah di antarkan ke Alamat jl.sunagakureblok77 \r\n\r\nRegards, \r\nkyodai \r\nRencara Team '),
-(124, 'Re : All item telah di kirimkan ke alamat order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear vendor kyodai \r\n\r\nTerimakasih Atas support dan kerja sama nya \r\n\r\n\r\nRegards, \r\nmega \r\nRencara Client '),
-(125, 'Menunggu Pengembalian order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear customer mega \r\n\r\nItem yang terdaftar di bawah : \r\n\r\nItem name : \r\nLampu Strobo Quantity : 3\r\n\r\n\r\nuntuk pengembalian item di atas , apakah akan di antar ke kami atau akan kami ambil kembali ke alamat jl.sunagakureblok77 \r\n\r\n\r\nmohon untuk me reply tiket ini dengan jawaban yang kami tanyakan di atas \r\n\r\n\r\nRegards, \r\nkyodai \r\nRencara Team '),
-(126, 'Re : Menunggu Pengembalian order number : 319722592', 319722592, 'kyodai', 'mega', 'Dear vendor kyodai \r\n\r\nTerimakasih Atas support dan kerja sama nya \r\n\r\n\r\nRegards, \r\nmega \r\nRencara Client ');
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `vendor`
@@ -358,9 +279,6 @@ CREATE TABLE `vendor` (
 -- Dumping data for table `vendor`
 --
 
-INSERT INTO `vendor` (`idv`, `n_vendor`, `contact`, `alamat`, `imgv`, `u_v`, `p_v`, `roster`, `phone`, `no_rek`, `ktp`, `npwp`, `v_status`) VALUES
-(22, 'kyodai', 'clonerxyz@gmail.com', 'jl.ngagel jaya selatan blok j no.21', 'download1.png', 'kyodai', 'bmFydXRvcGVpbg==', 'vend', '3213142142', '', '', '', 'acc'),
-(35, 'synthyzer', 'clonerxyz@gmail.com', 'jl.aowkoakwkoka', 'rico1.png', 'synthyzer', 'MQ==', 'vend', '29381928983989128', NULL, 'ktp1.PNG', 'npwp4.PNG', 'belum di acc');
 
 --
 -- Indexes for dumped tables
